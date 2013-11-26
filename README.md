@@ -1,5 +1,7 @@
 # grunt-requirejs-revver
 
+NOTE: README/PLUGIN IS A WORK IN PROGRESS. CURRENTLY IT WORKS VERY SPECIFIC TO MY USE CASE
+
 > Generate revvered filenames post-r.js build on your assets
 
 ## Getting Started
@@ -24,7 +26,7 @@ In your project's Gruntfile, add a section named `revver` to the data object pas
 
 ```js
 grunt.initConfig({
-  requirejs_revver: {
+  revver: {
     options: {
       // Task-specific options go here.
     },
@@ -56,7 +58,7 @@ In this example, the default options are used to do something with whatever. So 
 
 ```js
 grunt.initConfig({
-  requirejs_revver: {
+  revver: {
     options: {},
     files: {
       'dest/default_options': ['src/testing', 'src/123'],
@@ -70,7 +72,7 @@ In this example, custom options are used to do something else with whatever else
 
 ```js
 grunt.initConfig({
-  requirejs_revver: {
+  revver: {
     options: {
       separator: ': ',
       punctuation: ' !!!',
