@@ -1,0 +1,1 @@
+define(["jquery"],function(e){return{init:function(){e(".js-site-search-button").on("click",e.proxy(this._processClick,this))},_processClick:function(t){e(".js-site-search-text")[0].value||t.preventDefault()},_showError:function(){e(".js-site-search-error").show()}}});

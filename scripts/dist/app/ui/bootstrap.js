@@ -1,0 +1,1 @@
+define(["app/ui/mediaqueries/mediaqueries","app/ui/page/all"],function(e,t){return{init:function(){e.init(),t.init()}}});

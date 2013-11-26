@@ -1,0 +1,1 @@
+define(["app/util/useragent"],function(e){return{init:function(){this._hasSvgBackground()},_addClass:function(e){document.documentElement.className+=" "+e},_hasSvgBackground:function(){var t="svgbackground",n=e.getUA(),r=document.documentElement.className.indexOf("oldie")>-1,i=e.isOldAndroid(n);if(r||i)t="no-"+t;this._addClass(t)}}});

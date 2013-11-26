@@ -1,0 +1,1 @@
+define({JSON:[{isAvailable:function(){return typeof JSON!="undefined"},module:function(){return JSON}},{isAvailable:function(){return!0},implementation:"JSON"}],matchMedia:[{isAvailable:function(){return typeof matchMedia!="undefined"},module:function(){return matchMedia}},{isAvailable:function(){return!0},implementation:"matchMedia"}]});

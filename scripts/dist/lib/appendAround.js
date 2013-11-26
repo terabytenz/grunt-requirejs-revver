@@ -1,0 +1,1 @@
+(function(e){e.fn.appendAround=function(){return this.each(function(){function i(){t.is(":hidden")&&t.appendTo(r.filter(":visible:eq(0)"))}var t=e(this),n="data-set",r=e("["+n+"='"+t.closest("["+n+"]").attr(n)+"']");i(),e(window).resize(i)})}})(jQuery);

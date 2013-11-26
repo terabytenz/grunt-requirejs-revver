@@ -1,0 +1,1 @@
+define([],function(){return{getObjectLength:function(e){var t=0;if(!e)return t;for(var n in e)e.hasOwnProperty(n)&&t++;return t}}});

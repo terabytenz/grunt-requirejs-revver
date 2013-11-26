@@ -1,0 +1,1 @@
+define(["jquery","evensteven"],function(e){var t,n;return{init:function(r){n=this,t=e(".footer-pods > .footer-pod"),t.evenSteven({columns:n.state(r)})},update:function(e){t.evenSteven().update({columns:n.state(e)})},state:function(e){var t=1;switch(e){case"medium":t=2;break;case"large":t=4}return t}}});

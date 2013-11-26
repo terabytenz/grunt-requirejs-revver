@@ -1,0 +1,1 @@
+define(["jquery","app/util/useragent"],function(e,t){return{init:function(n,r){t.isIeOldie()&&this._clearRow(e(".landing-grid > .pod"),n,r)},_clearRow:function(t,n,r){r=r!==undefined?r-1:0;for(var i=0;t.length>i;i++){var s=e(t[i]),o=(i-r)%n===0||r===i?!0:!1;o&&s.css({clear:"both"})}}}});

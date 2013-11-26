@@ -1,0 +1,1 @@
+define(["jquery","colorbox","app/ui/lightbox/lightbox"],function(e,t,n){return{init:function(){n.init();var t={transition:"none",maxWidth:"90%",title:n.setTitle,onLoad:n.onLoadProcessing,onComplete:n.onCompleteProcessing};e(".no-touch").find(".js-lightbox-single").find(".js-lightbox-image").colorbox(t)},open:function(){e(this).trigger("click")}}});
