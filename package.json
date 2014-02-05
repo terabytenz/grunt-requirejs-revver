@@ -1,7 +1,7 @@
 {
   "name": "grunt-requirejs-revver",
   "description": "Generate revved filenames post-r.js build on your assets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/patocallaghan/grunt-requirejs-revver",
   "author": {
     "name": "Pat O'Callaghan",
@@ -34,12 +34,12 @@
     "grunt-devtools": "~0.1.0-7",
     "grunt-mocha-test": "~0.2.2",
     "should": "~1.2.2",
-    "grunt-contrib-watch": "~0.3.1"
+    "grunt-contrib-watch": "~0.3.1",
+    "lodash": "~1.2.0"
   },
   "peerDependencies": {
     "grunt": "~0.4.1",
-    "crypto": "0.0.3",
-    "lodash": "~1.2.0"
+    "crypto": "0.0.3"
   },
   "keywords": [
     "gruntplugin",
